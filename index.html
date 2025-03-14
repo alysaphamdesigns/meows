@@ -4,50 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Critterverse!</title>
-</head>
     <style>
-body {
-  background-image: url('city.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-</style>
+        body {
+            background-image: url('city.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
 
-     <style>
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      font-size: 16px;
-      color: white;
-      background-color: #007BFF;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      text-align: center;
-      cursor: pointer;
-    }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }
 
-    .button:hover {
-      background-color: #0056b3;
-    }
-          .floating-image {
-            float: middle;
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px; /* Adjust this height as needed */
+        }
+
+        .floating-image {
             width: 300px;
             height: 300px;
         }
-  </style>
+    </style>
+</head>
 <body>
     <h1 style="color: white; text-align: center;">Welcome to Critterverse!</h1>
-    <img src="world.png" alt="planet" class="floating-image">  
+    <div class="image-container">
+        <img src="world.png" alt="planet" class="floating-image">  
+    </div>
     <p style="color: white; text-align: center; background-color:grey; font-size: 20px;">
         Critterverse is a world beyond the galaxy where earth lies. Humans were wiped out after a mass extinction and never were able to bounce back-but other
-        animals and mammals did. Critterverse may seem tame on the surface but faces hardships with climate and swinging enviromental changes that cause major 
+        animals and mammals did. Critterverse may seem tame on the surface but faces hardships with climate and swinging environmental changes that cause major 
         natural disasters suddenly.
     </p>
-
     <a href="introduction.html" class="button">go to critterverse</a>
 </body>
 </html>
-
-
