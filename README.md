@@ -1,3 +1,1 @@
 hiiii
-
-![cat](sittingcat.png)
