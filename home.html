@@ -4,36 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home sweet home</title>
-</head>
-     <style>
-body {
-  background-image: url('bed.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-</style>
-    
-     <style>
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      font-size: 16px;
-      color: white;
-      background-color: #007BFF;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      text-align: center;
-      cursor: pointer;
-    }
-
-    .button:hover {
-      background-color: #0056b3;
-   
-     }
+    <style>
+        body {
+            background-image: url('bed.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
         .floating-image {
-            float: center;
             width: 300px;
             height: 300px;
         }
@@ -41,12 +40,13 @@ body {
 </head>
 <body>
     <h1 style="color: white; text-align: center;">home sweet home!</h1>
-    <img src="sittingcat.png" alt="toba sitting" class="floating-image">   
+    <div class="container">
+        <img src="sittingcat.png" alt="toba sitting" class="floating-image">
+    </div>
     <p style="color: white; text-align: center; background-color:grey; font-size: 20px;">
         we made it! this is my home, make yourself comfortable. i'll try and find something for you to eat since we have a 
-      big day tomorrow. we can explore the forrest tomorrow, which i think you'll love.
+        big day tomorrow. we can explore the forrest tomorrow, which i think you'll love.
     </p>
-    
     <a href="home2.html" class="button">make urself comfy</a>
 </body>
 </html>
